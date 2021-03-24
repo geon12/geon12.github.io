@@ -12,3 +12,4 @@
 
 - Style with CSS
 - addEventListeners that will hide and display sections when you click titles
+- Possible dark mode?
