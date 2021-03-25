@@ -40,8 +40,10 @@ function createInterestHTML(interest, id) {
 
 }
 
-
 createInterestHTML(bookList,"read");
 createInterestHTML(tvList,"watch");
 createInterestHTML(listenList,"listen");
+
+const description = document.getElementById("description");
+const learning = document.getElementById("learning");
 
