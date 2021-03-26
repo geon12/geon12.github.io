@@ -7,7 +7,7 @@ const bookList = [
 const tvList = [
     {title: "The Falcon and the Winter Soldier", url: "https://www.youtube.com/watch?v=IWBsDaFWyTE"},
     {title: "Formula 1: Drive to Survive", url: "https://www.youtube.com/watch?v=GMrHKc58aIA"},
-    {title: "WandaVIsion", url: "https://www.youtube.com/watch?v=sj9J2ecsSpo"}
+    {title: "WandaVision", url: "https://www.youtube.com/watch?v=sj9J2ecsSpo"}
 ];
 
 const listenList = [
@@ -26,12 +26,12 @@ function createInterestHTML(interest, id) {
     for (let i = 0; i < interest.length; i++) {
         const li = document.createElement('li');
         const a = document.createElement('a');
-        li.appendChild(a)
-        a.href = interest[i].url
+        li.appendChild(a);
+        a.href = interest[i].url;
         if (id === "read"){
-            a.innerText = `${interest[i].title} by ${interest[i].author}`
+            a.innerText = `${interest[i].title} by ${interest[i].author}`;
         } else {
-            a.innerText = interest[i].title
+            a.innerText = interest[i].title;
         }
         ul.appendChild(li);
     }
@@ -47,6 +47,6 @@ createInterestHTML(listenList,"listen");
 const description = document.getElementById("description");
 const learning = document.getElementById("learning");
 
-description.innerText = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-learning.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+description.innerText = "Welcome! I’m Cameron Creel, and I’m from the Baltimore area. I think of myself as a “forever student” because I’m always trying to learn something new. I’m passionate about computers, software, engineering, and science.";
+learning.innerText = "Right now, I’m delving deep into software development, which is both challenging and rewarding. If you want to know more about me, there’s more information below.";
 
