@@ -70,7 +70,8 @@ footer {
    border: 2px solid black;
    padding: 25px;
    margin-bottom: 20px;
-   background-color: lightskyblue;;
+   background-color: lightskyblue;
+   width:25%;
 }
 
 #octocat {
