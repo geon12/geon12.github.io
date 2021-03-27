@@ -82,14 +82,20 @@ footer {
 
 
 .list {
-  
-   margin-left: 5%;
-   margin-right: 5%;
-   border: 2px solid black;
-   padding: 2%;
-   margin-bottom: 20px;
-   background-color: lightskyblue;
-   width: 25%;
+
+    
+    flex-basis: 25%;
+    
+    margin-bottom: 2%;
+    border: 2px solid black;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+    background-color: lightskyblue;
+   
 
 }
 
@@ -112,6 +118,10 @@ a {
 
 a:hover {
     color: blue;
+}
+
+li {
+    margin-bottom: 1%;
 }
 
 #resource-links {
