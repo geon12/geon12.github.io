@@ -47,6 +47,6 @@ createInterestHTML(listenList,"listen");
 const description = document.getElementById("description");
 const learning = document.getElementById("learning");
 
-description.innerText = "Welcome! I’m Cameron Creel, and I’m from the Baltimore area. I think of myself as a “forever student” because I’m always trying to learn something new. I’m passionate about computers, software, engineering, and science.";
+description.innerHTML = "Welcome! I’m <strong>Cameron Creel</strong>, and I’m from the Baltimore area. I think of myself as a “forever student” because I’m always trying to learn something new. I’m passionate about computers, software, engineering, and science.";
 learning.innerText = "Right now, I’m delving deep into software development, which is both challenging and rewarding. If you want to know more about me, there’s more information below.";
 
