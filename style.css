@@ -8,16 +8,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: lightgray;
+    
 }
 
 #name {
     width: 100%;
     text-align: center;
+    background-color: lightskyblue;
+    font-size: 50px;
 }
 
 #about {
     width: 100%;
     margin-left: 50px;
+    
+    
 }
 
 .images {
@@ -56,5 +62,5 @@ footer {
    border: 2px solid black;
    padding: 10px;
    margin-bottom: 20px;
-   
+   background-color: lightskyblue;;
 }
