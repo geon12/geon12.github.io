@@ -67,8 +67,13 @@ a {
 }
 #name {
     background-color: #383736;
+    border: 3px solid white;
 }
 .list {
+    background-color: #383736;
+    border: 2px solid white;
+}
+button {
     background-color: #383736;
 }
 `;
