@@ -1,3 +1,5 @@
+//Interest data in arrays
+
 const bookList = [
     {title: "The Code Breaker", author: "Walter Isaacson", url: "https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858"},
     {title:"Beginners", author: "Tom Vanderbilt", url: "https://www.amazon.com/Beginners-Transformative-Power-Lifelong-Learning/dp/1524732168"},
@@ -17,7 +19,7 @@ const listenList = [
 
 ];
 
-
+//function to create HTML for interests
 function createInterestHTML(interest, id) {
     const element = document.getElementById(id);
     const h3 = element.getElementsByTagName("h3")[0];
