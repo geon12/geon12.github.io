@@ -1,6 +1,6 @@
 .link-images {
     width: 60%;
-    
+    border: 1px solid black
 }
 
 
@@ -53,4 +53,8 @@ footer {
   
    margin-left: 50px;
    margin-right: 50px;
+   border: 2px solid black;
+   padding: 10px;
+   margin-bottom: 20px;
+   
 }
