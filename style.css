@@ -1,6 +1,9 @@
 .link-images {
-    width: 60%;
-    height: 12em;
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    
+    
     border: 1px solid black;
     margin-bottom: 1%;
 }
@@ -38,7 +41,7 @@ h2 {
 .images {
     width: 30%;
     text-align: center;
-    
+    margin-bottom: 3%;
 }
 
 div:nth-child(4) {
@@ -83,7 +86,7 @@ footer {
    padding: 25px;
    margin-bottom: 20px;
    background-color: lightskyblue;
-   
+   width: 25%;
 }
 
 #octocat {
