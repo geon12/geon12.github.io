@@ -72,4 +72,8 @@ a {
 }
 `;
 
-link.append(style);
+function addStyle() {
+    link.append(style);
+}
+
+button.addEventListener('click',addStyle);
