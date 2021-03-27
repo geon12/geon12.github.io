@@ -72,8 +72,17 @@ a {
 }
 `;
 
+
+
 function addStyle() {
-    link.append(style);
+    if (button.innerText === "Dark Mode") {
+        link.append(style);
+        button.innerText = "Light Mode";
+    } 
+    else {
+        style.remove();
+        button.innerText = "Dark Mode"
+    }
 }
 
 button.addEventListener('click',addStyle);
