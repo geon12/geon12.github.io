@@ -50,3 +50,26 @@ const learning = document.getElementById("learning");
 description.innerHTML = "Welcome! I’m <strong>Cameron Creel</strong>, and I’m from the Baltimore area. I think of myself as a “forever student” because I’m always trying to learn something new. I’m passionate about computers, software, engineering, and science.";
 learning.innerText = "Right now, I’m delving deep into software development, which is both challenging and rewarding. If you want to know more about me, there’s more information below.";
 
+const button = document.getElementById("dark-mode");
+
+const link = document.getElementsByTagName("link")[0];
+const style = document.createElement("style");
+style.innerHTML = 
+`
+body { 
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+#name {
+    background-color: #383736;
+}
+.list {
+    background-color: #383736;
+}
+`;
+
+link.append(style);
