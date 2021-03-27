@@ -71,7 +71,7 @@ footer {
    padding: 25px;
    margin-bottom: 20px;
    background-color: lightskyblue;
-   width:25%;
+   
 }
 
 #octocat {
@@ -89,6 +89,10 @@ footer p {
 a { 
     color: black; 
     
+}
+
+a:hover {
+    color: blue;
 }
 
 #resource-links {
