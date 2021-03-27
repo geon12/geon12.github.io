@@ -1,3 +1,56 @@
 .link-images {
-    width: 200px;
+    width: 60%;
+    
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#name {
+    width: 100%;
+    text-align: center;
+}
+
+#about {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.images {
+    width: 40%;
+    text-align: center;
+    
+}
+
+#links {
+    width: 100%;
+    margin-left: 50px;
+    
+}
+
+#resources {
+    width: 100%;
+    margin-left: 50px;
+}
+
+#interests {
+    width: 100%;
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+
+.list {
+  
+   margin-left: 50px;
+   margin-right: 50px;
 }
